@@ -78,6 +78,7 @@ footer{
     border-top-right-radius: 10px;
     text-shadow: 1px 2px 3px #02010a;
     width: 100%;
+    animation: animacion 3s;
   }
 
   header nav{
@@ -145,6 +146,7 @@ footer{
     border-top-right-radius: 10px;
     text-shadow: 1px 2px 3px #02010a;
     width: 100%;
+    animation: animacion 3s;
   }
 
   header nav{
@@ -204,5 +206,19 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+}
+
+@-webkit-keyframes animacion{
+  0%{
+    margin-top: 150%;
+  }
+
+  60%{
+    margin-top: -5%;
+  }
+
+  100%{
+    margin-top: 0%;
   }
 }

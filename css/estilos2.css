@@ -1,0 +1,245 @@
+*{
+  font-family: Dancing Script;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a{
+  color: white;
+}
+
+header h1{
+  color: white;
+}
+
+#gallery{
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#gallery img{
+  width: 350px;
+  height: 250px;
+  box-shadow: 2px 2px #02010a;
+}
+
+.even{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+footer{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  background-color: #C6d5c5;
+}
+
+@media (min-width:900px) {
+  header{
+    background-color: #5b7989;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 1px 2px 3px #02010a;
+    width: 100%;
+    animation: animacion 3s;
+  }
+
+  header nav{
+    text-align: right;
+  }
+
+  #imagen1{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+
+  #imagen2{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #imagen3{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+  }
+
+  #imagen4{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #imagen5{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #imagen6{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #Contacto{
+    order: 1;
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #Terminos{
+    order: 2;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  #Social{
+    order: 3;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  #Derechos{
+    order: 4;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:900px) {
+  header{
+    background-color: #5b7989;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 1px 2px 3px #02010a;
+    width: 100%;
+    animation: animacion 3s;
+  }
+
+  header nav{
+    text-align: center;
+  }
+
+  #imagen1{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+
+  #imagen2{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #imagen3{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+  }
+
+  #imagen4{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #imagen5{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #imagen6{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #Contacto{
+    order: 1;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #Terminos{
+    order: 2;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  #Social{
+    order: 3;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  #Derechos{
+    order: 4;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@-webkit-keyframes animacion{
+  0%{
+    margin-top: 150%;
+  }
+
+  60%{
+    margin-top: -5%;
+  }
+
+  100%{
+    margin-top: 0%;
+  }
+}
